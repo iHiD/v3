@@ -1,10 +1,8 @@
 # C&#35;
 
-C# is an object-oriented language.
-
 ## Contributing
 
-There are several ways in which you can contribute to Exercism's C# V3 track:
+Thanks for wanting to contribute to the C# track! There are several ways in which you can contribute to Exercism's C# V3 track:
 
 - [Concept exercises][docs-concept-exercises]
 - [Representer][docs-representer]
