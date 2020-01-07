@@ -16,5 +16,5 @@ Import members of a single class.
 
 - See the official [`using` keyword documentation][docs.microsoft.com_keywords-using].
 
-[csharp-info-namespaces]: ../info/namespaces.md
+[csharp-info-namespaces]: ../concepts/namespaces.md
 [docs.microsoft.com_keywords-using]: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using

@@ -8,7 +8,7 @@ All simple types are structs:
 - [Floating-point types][csharp-info-floating_point_numbers]
 - [`bool`][csharp-type-bool]
 
-[csharp-info-value_types]: ../info/value_types.md
-[csharp-info-floating_point_numbers]: ../info/floating_point_numbers.md
+[csharp-info-value_types]: ../concepts/value_types.md
+[csharp-info-floating_point_numbers]: ../concepts/floating_point_numbers.md
 [csharp-type-bool]: ./bool.md
 [csharp-type-char]: ./char.md
