@@ -5,6 +5,8 @@ This document describes how to implement a concept exercise for the C# track. As
 - `<SLUG>`: the name of the exercise in kebab-case (e.g. `anonymous-methods`).
 - `<NAME>`: the name of the exercise in PascalCase (e.g. `AnonymousMethods`).
 
+Before implementing the exercise, please make sure you have a good understanding of what the exercise should be teaching (and what not). This information can be found in the exercise's GitHub issue.
+
 To implement a concept exercise, the following files must be created:
 
 <pre>
@@ -16,8 +18,8 @@ languages
                 ├── .docs
                 |   ├── instructions.md
                 |   ├── introduction.md
-                |   ├── after.md (optional)
-                |   └── hints.md (optional)
+                |   ├── hints.md
+                |   └── after.md (optional)
                 ├── .meta
                 |   ├── config.json
                 |   └── Example.cs
@@ -39,7 +41,7 @@ These files are specific to the C# track:
 
 - `.docs/introduction.md`: an introduction to the concept. It should be explicit about what the exercise teaches and maybe provide a brief introduction to the concepts, but not give away so much that the user doesn't have to do any work to solve the exercise.
 - `.docs/instructions.md`: instructions for the exercise. It should explicitly explain what the user needs to do (define a method with the signature `X(...)` that takes an A and returns a Z), and provide at least one example usage of that function. If there are multiple tasks within the exercise, it should provide an example of each.
-- `.docs/hints.md` (optional): if the user gets stuck, we will allow them to click a button requesting a hint, which shows this file. We will softly discourage them using it. The file should contain both general and task-specific "hints". These hints should be enough to unblock almost any
+- `.docs/hints.md`: if the user gets stuck, we will allow them to click a button requesting a hint, which shows this file. We will softly discourage them using it. The file should contain both general and task-specific "hints". These hints should be enough to unblock almost any
 - `.docs/after.md` (optional): once the user completes the exercise they will be shown this file, which gives them any bonus information or further reading about the concept taught.
 
 These files are also all described in the [concept exercises document][docs-general-concept-exercises].

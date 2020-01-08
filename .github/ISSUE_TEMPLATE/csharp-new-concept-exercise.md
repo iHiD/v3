@@ -97,41 +97,7 @@ To help the implementer get started, add a link to the [C# analyzer document][do
 
 ## Implementing
 
-If you'd like to work on implementing this exercise, the first step is to let us know through a comment on this issue, to prevent multiple people from working on the same exercise.
-
-Implementing the exercise means creating the following files:
-
-<pre>
-languages
-└── csharp
-    └── concept-exercises
-        └── &lt;SLUG&gt;
-            ├── .docs
-            |   ├── after.md (optional)
-            |   ├── hints.md
-            |   ├── instructions.md
-            |   └── introduction.md
-            ├── .meta
-            |   ├── config.json
-            |   └── Example.cs
-            ├── &lt;NAME&gt;.cs
-            ├── &lt;NAME&gt;Test.cs
-            └── &lt;NAME&gt;.csproj
-</pre>
-
-- `<NAME>.cs`: the stub implementation file, which is the starting point for students to work on the exercise.
-- `<NAME>Test.cs` file with the exercise's test suite.
-- `<NAME>.csproj`: the C# project file.
-- `.meta/Example.cs`: an example implementation that passes all the tests.
-- `.meta/config.json`: the exercise's configuration file. This file specifies the solution file, test file, and should contain all tests and the methods they call.
-- `.docs/introduction.md`: provides an introduction to the concept. It should be explicit about what the exercise teaches and maybe provide a brief introduction to the concepts, but not give away so much that the user doesn't have to do any work to solve the exercise.
-- `.docs/instructions.md`: provides instructions for the exercise. It should explicitly explain what the user needs to do (define a function with the signature `X.y(...)` that takes an A and returns a Z), and provide at least one example usage of that function. If there are multiple tasks within the exercise, it should provide an example of each.
-- `.docs/hints.md`: if the user gets stuck, we will allow them to click a button requesting a hint, which shows this file. The file should contain both general and task-specific "hints". These hints should be enough to unblock almost any user. They might link to the docs of the functions that need to be used.
-- `.docs/after.md` (optional): once the user completes the exercise they will be shown this file, which gives them any bonus information or further reading about the concept taught.
-
-## Inspiration
-
-When implementing this exericse, it can be very useful to look at already implemented C# exercises like the [strings][exercises-concept-strings] or [dates][exercises-concept-dates] exercises. You can also check the [language-independent reference documents][general-reference] to see if there is a document for the concept(s) this exercise implements. If so, these documents have links to all language tracks that have already implemented an exercise for that concept.
+Please check the [how to implement a concept exercise guide][docs-how-to-implement-a-concept-exercise] for details on how to implement this exercise.
 
 ## Help
 
@@ -142,4 +108,4 @@ If you have any questions while implementing the exercise, please post the quest
 [docs-concept-exercises]: ./languages/csharp/docs/concept-exercises.md
 [docs-analyzer]: ./languages/csharp/docs/analyzer.md
 [docs-representer]: ./languages/csharp/docs/representer.md
-[general-reference]: ./reference
+[docs-how-to-implement-a-concept-exercise]: ./languages/csharp/docs/how-to-implement-a-concept-exercise.md
