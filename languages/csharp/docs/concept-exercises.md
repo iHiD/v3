@@ -1,6 +1,6 @@
 # C&#35; concept exercises
 
-The core focus of v3 tracks is on teaching the _concepts_ that make up a language. As such, we've been compiling a [list of concepts][readme] for the C# language. TODO
+The core focus of v3 tracks is on teaching the _concepts_ that make up a language. As such, we've been compiling a [list of concepts][reference] for the C# language. TODO
 
 To teach concepts, we're developing _concept exercises_, which are designed specifically to teach concepts (usually one per exercise). Concept exercises should teach students what makes C# unique. As an example, a floating-point numbers exercise's focus is on teaching how to work with floating-point numbers in C#, and less about teaching what floating-point numbers _are_.
 
@@ -8,7 +8,7 @@ It is important to understand we _never_ explain a specific type or syntax as a 
 
 Besides teaching one or more concepts, a concept exercise can have concepts the student must be familiar with before being allowed to start with the concept exercise. This is referred to as a concept exercise's prerequisites.
 
-The concept exercises for the C# track are a work-in-progress and can be found in [`languages/csharp/exercises/concept`][concept-exercises]. Important _types_ of concepts to target are things that only exist in object-oriented programming (for people coming from non-OOP languages), functions as first-class citizens (for people coming from non-functional languages), and C# specifics like:
+The concept exercises for the C# track are a work-in-progress and can be found in the [`languages/csharp/exercises/concept`][concept-exercises] directory. Important _types_ of concepts to target are things that only exist in object-oriented programming (for people coming from non-OOP languages), functions as first-class citizens (for people coming from non-functional languages), and C# specifics like:
 
 - Reference- and value type semantics
 - Extensions methods
@@ -56,6 +56,7 @@ Here is how the C# track has interpreted the following concept keywords. This sh
 
 This also indicates that for example `basic-strings` does **not** teach using custom formatting strings and that `basic-numbers` does **not** teach about checked/unchecked arithmetic.
 
+[reference]: ./reference.md
 [concept-exercises]: ../exercises/concept
 [concept-exercise-bitwise-operations]: ../exercises/concept/bitwise-operations
 [concept-exercise-dates]: ../exercises/concept/dates
