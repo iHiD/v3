@@ -5,7 +5,7 @@ This document describes how to implement a concept exercise for the C# track. As
 - `<SLUG>`: the name of the exercise in kebab-case (e.g. `anonymous-methods`).
 - `<NAME>`: the name of the exercise in PascalCase (e.g. `AnonymousMethods`).
 
-Implementing the exercise means creating the following files:
+To implement a concept exercise, the following files must be created:
 
 <pre>
 languages
@@ -21,9 +21,9 @@ languages
                 ├── .meta
                 |   ├── config.json
                 |   └── Example.cs
-                ├── <NAME>.cs
-                ├── <NAME>.csproj
-                └── <NAME>Test.cs
+                ├── &lt;NAME&gt;.cs
+                ├── &lt;NAME&gt;.csproj
+                └── &lt;NAME&gt;Test.cs
 </pre>
 
 ## Step 1: adding track-specific files
