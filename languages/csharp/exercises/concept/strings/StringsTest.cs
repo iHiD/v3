@@ -1,5 +1,9 @@
 using Xunit;
 
+// TODO: convert Theory-based tests to Fact-based tests.
+// This is necessary in order to be able to display the 
+// input for which the test failed, which is defined in
+// the .meta/config.json file
 public class LogLineTest
 {
     [Theory]
