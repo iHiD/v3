@@ -39,22 +39,6 @@ For example:
 - Advanced usage of `Y`.
 - ...
 
-## Resources to refer to
-
-List suggestions to use for resources in the exercise's documentation file(s).
-
-For example:
-
-### Hints
-
-- [How to use `Y` when doing `A`][http://test.com]
-- ...
-
-### After
-
-- [Performance characteristics of using `Y`][http://test.com]
-- ...
-
 ## Concepts
 
 List the concepts this exercise teaches. These concepts can be more fine-grained than their overarching concepts.
@@ -71,6 +55,22 @@ List the prerequisite concepts that this exercise expects the student to already
 For example:
 
 - `basic-numbers`
+- ...
+
+## Resources to refer to
+
+List suggestions to use as resources in the exercise's documentation file(s).
+
+For example:
+
+### Hints
+
+- [How to use `Y` when doing `A`][http://test.com]
+- ...
+
+### After
+
+- [Performance characteristics of using `Y`][http://test.com]
 - ...
 
 ## Representer
